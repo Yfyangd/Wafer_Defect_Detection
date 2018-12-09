@@ -23,3 +23,11 @@ We train our models as follows. First, we split the images randomly into 9384 (8
 
 Table as below is the confusion matrix and it shows the per-class classification accuracy in percentage. Due to the confidentiality reason, we can only provide per-class accuracy, not the absolute number of wafers. Most of the class accuracy is greater than 98%. The overall accuracy is 99.2%.
 
+| Type | PAR | RE | OM | DC | Ru | PC |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+|PAR | 99.7 | 0.2 | 0.9 | 0.0 | 0.0 | 0.3 |
+|RE | 0.0 | 99.5 | 0.0 | 0.2 | 0.5 | 0.0 |
+|OM | 0.1 | 0.0 | 98.3 | 0.0 | 0.0 | 0.0 |
+|DC | 0.0 | 0.0 | 0.4 | 98.3 | 1.0 | 0.3 |
+|Ru | 0.1 | 0.3 | 0.0 | 1.5 | 98.5 | 0.0 |
+|PC | 0.0 | 0.3 | 0.4 | 0.0 | 0.0 | 99.4 |

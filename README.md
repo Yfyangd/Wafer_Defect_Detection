@@ -8,7 +8,7 @@ Our experimental result demonstrates the success of CNN and extreme gradient boo
 # Data Preprocess
 we use Min-Max scaling to normalize the data. A Min-Max scaling will scale the data between the 0 and 1. It is typically done via the following equation:
 
-## Xmin-max = (X-Xmin)/(Xmax-Xmin)
+### Xmin-max = (X-Xmin)/(Xmax-Xmin)
 
 In this approach, the data is scaled to a fixed range (typically 0 to 1). We end up with a smaller standard deviation, which can suppress the effects of outliers.
 
